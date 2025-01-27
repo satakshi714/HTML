@@ -1,0 +1,61 @@
+
+three-dots-icon
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Document</title>
+
+</head>
+<body>
+<form action="backend.php" method="post">
+<label for="nameid">Name:</label>
+<div>
+<input type="text" name="Myname" id="nameid" autocomplete="on"></div>
+<br>
+<div>Roll No: <input type="number" name="Myrollno"></div>
+<br>
+<div>Email Id: <input type="email" name="Myemail" autocomplete="off"></div>
+<br>
+<div>Date: <input type="date" name="mydate" min="2022-10-11"></div>
+<br>
+<label for="eligibleid">Are you eligible: </label>
+<div><input type="checkbox" name="myeligibility" id="eligibleid" checked></div>
+<br>
+<div>Gender: Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender"></div>
+<br>
+<div>
+<label for="birthdaytime">Birthday (date and time):</label>
+<input type="datetime-local" id="birthdaytime" name="birthdaytime">
+
+</div>
+<br>
+<div>
+<label for="hobbiesid">Select your option</label>
+<select name="Myhobbies" id="hobbiesid">
+<option value="1">Reading</option>
+<option value="2">Writing</option>
+<option value="3" selected>Coding</option>
+<option value="4">Dancing</option>
+</select>
+</div>
+<br>
+<div>
+<label for="favcolor">Select your favorite color:</label>
+<input type="color" id="favcolor" name="favcolor" value="grey;">
+</div>
+<br>
+<div><input type="submit" value="submit now">
+<input type="reset" value="Reset now"></div>
+<br>
+
+<div>Write about yourself: <br><textarea name="mytext" cols="30" rows="10"></textarea></div>
+<br>
+<div>
+<input type="button" onclick="alert('Sorry, There is no backed file ')" value="Final Submission">
+</div>
+<br>
+</form>
+
+</body>
+</html>
